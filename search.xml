@@ -41,4 +41,36 @@
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 ]]></content>
   </entry>
+  <entry>
+    <title>CDIO3</title>
+    <url>/2020/07/07/poem_002/</url>
+    <content><![CDATA[<h1 id="c简易电子负载"><a href="#c简易电子负载" class="headerlink" title="c简易电子负载"></a>c简易电子负载</h1><p><img src="D:%5Cboke%5Ccss%5Csource%5C%E7%94%B5%E5%AD%90%E8%B4%9F%E8%BD%BD.jpg" alt=""></p>
+<h2 id="一、任务"><a href="#一、任务" class="headerlink" title="一、任务"></a>一、任务</h2><p>设计并制作直流电子负载，其结构如图1所示。被测电源为输出电压可调的直流稳压电源，额定电压不小于30V，额定电流不小于2A。测控电路采用一路+5V电源供电。负载模拟电路工作在恒流模式，可设定直流电子负载电流II。</p>
+<p><img src="D:%5Cboke%5Ccss%5Csource%5C%E7%9B%B4%E6%B5%81%E7%94%B5%E5%AD%90%E8%B4%9F%E8%BD%BD.jpg" alt=""></p>
+<h2 id="二、要求"><a href="#二、要求" class="headerlink" title="二、要求"></a>二、要求</h2><p> <strong>1.**</strong>基本要求**</p>
+<p>（1）II在100~1000mA范围内可步进调整，步进值为100mA。   </p>
+<p>（2）使II保持设定值，电流控制精度优于1%。  </p>
+<p>（3）当UI从15V增加至20V时，要求II的变化率不大于1%。  </p>
+<p>（4）能够测量并显示UI，测量精度优于1%。   </p>
+<p><strong>2**</strong>、发挥部分** </p>
+<p>（1）能够测量并显示II，测量精度优于0.2%+2个字。 </p>
+<p>（2）能够测量并显示UI，测量精度优于0.2%+2个字。   </p>
+<p>（3）具有恒功率输出功能，控制精度优于1%。</p>
+<p>（4）具有过压保护功能，动作电压UI（th）=（24±0.2）V。  </p>
+<p>（5）其他。               </p>
+<h2 id="三、说明"><a href="#三、说明" class="headerlink" title="三、说明"></a>三、说明</h2><p>（1） 要求负载模拟电路功率器件工作在线性状态，II为连续电流。</p>
+<p>（2） 要求（2）中电流控制的相对误差</p>
+<p><img src="file:///C:/Users/acer/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png" alt="img"></p>
+<p>式中II为实测电流、II0为设定值。</p>
+<p>（3） 要求（3）中电流变化率Su=(I20-I15)/ I15，式中I15为UI=15V时的实测电流、I20为UI=20V的实测电流。</p>
+<p>（4） 装置应能连续安全工作足够长时间，测试期间不能出现过热等故障。</p>
+<p>（5） 制作时应合理设置测试点和接线端子（参考图1），以方便测试。</p>
+]]></content>
+      <categories>
+        <category>study</category>
+      </categories>
+      <tags>
+        <tag>poem</tag>
+      </tags>
+  </entry>
 </search>
