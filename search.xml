@@ -33,20 +33,21 @@
       </tags>
   </entry>
   <entry>
-    <title>selenium学习笔记一</title>
-    <url>/2021/08/30/selenium%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B8%80/</url>
-    <content><![CDATA[<p><a href="https://selenium-python-zh.readthedocs.io/en/latest/" target="_blank" rel="noopener">https://selenium-python-zh.readthedocs.io/en/latest/</a> </p>
-<p>selenium开发文档</p>
-<p>wd.implicitly_wait(10)</p>
-<p>Selenium 的 Webdriver 对象 有个方法叫 <code>implicitly_wait</code></p>
-<p>该方法接受一个参数， 用来指定 最大等待时长。</p>
-<p>根据 tag名 选择元素的 CSS Selector 语法非常简单，直接写上tag名即可，</p>
-<p>elements = wd.find_elements_by_css_selector(‘div’)</p>
-<p>根据id属性 选择元素的语法是在id号前面加上一个井号： <code>#id值</code></p>
-<p> element = wd.find_element_by_css_selector(‘#searchtext’)</p>
-<p>根据class属性 选择元素的语法是在 class 值 前面加上一个点： <code>.class值</code></p>
-<p>elements = wd.find_elements_by_css_selector(‘.animal’)</p>
+    <title>我爱你</title>
+    <url>/2021/08/30/poem_001/</url>
+    <content><![CDATA[<blockquote class='blockquote-center'>余秀华，1976年生于湖北，诗人，农民<br><br>在干净的院子里读你的诗歌，这人间情事，恍惚如突然飞过的麻雀儿</blockquote>
+<a id="more"></a>
+
+<img src='https://i.loli.net/2019/08/23/e8qzIu52kFOJp1U.jpg'>
+
+<p style='text-align:center; line-height:200%; font-size:100%'>巴巴地活着<br>每天打水，煮饭，按时吃药<br>阳光好的时候就把自己放进去<br>像放一块陈皮<br>茶叶轮换着喝<br>菊花，茉莉，玫瑰，柠檬<br>这些美好的事物仿佛把我往春天的路上带<br>所以我一次次按住内心的雪<br>它们过于洁白，过于接近春天<br><br>在干净的院子里读你的诗歌<br>这人间情事<br>恍惚如突然飞过的麻雀儿<br>而光阴皎洁<br>我不适宜肝肠寸断<br>如果给你寄一本书<br>我不会寄给你诗歌<br>我要给你一本关于植物，关于庄稼的<br>告诉你稻子和稗子的区别<br>告诉你一颗稗子提心吊胆的春天<br><br></p>
 ]]></content>
+      <categories>
+        <category>诗歌</category>
+      </categories>
+      <tags>
+        <tag>poem</tag>
+      </tags>
   </entry>
   <entry>
     <title>Hello World</title>
@@ -67,20 +68,18 @@
 ]]></content>
   </entry>
   <entry>
-    <title>我爱你</title>
-    <url>/2021/08/30/poem_001/</url>
-    <content><![CDATA[<blockquote class='blockquote-center'>余秀华，1976年生于湖北，诗人，农民<br><br>在干净的院子里读你的诗歌，这人间情事，恍惚如突然飞过的麻雀儿</blockquote>
-<a id="more"></a>
-
-<img src='https://i.loli.net/2019/08/23/e8qzIu52kFOJp1U.jpg'>
-
-<p style='text-align:center; line-height:200%; font-size:100%'>巴巴地活着<br>每天打水，煮饭，按时吃药<br>阳光好的时候就把自己放进去<br>像放一块陈皮<br>茶叶轮换着喝<br>菊花，茉莉，玫瑰，柠檬<br>这些美好的事物仿佛把我往春天的路上带<br>所以我一次次按住内心的雪<br>它们过于洁白，过于接近春天<br><br>在干净的院子里读你的诗歌<br>这人间情事<br>恍惚如突然飞过的麻雀儿<br>而光阴皎洁<br>我不适宜肝肠寸断<br>如果给你寄一本书<br>我不会寄给你诗歌<br>我要给你一本关于植物，关于庄稼的<br>告诉你稻子和稗子的区别<br>告诉你一颗稗子提心吊胆的春天<br><br></p>
+    <title>selenium学习笔记一</title>
+    <url>/2021/08/30/selenium%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B8%80/</url>
+    <content><![CDATA[<h1 id="selenium开发文档"><a href="#selenium开发文档" class="headerlink" title="selenium开发文档"></a>selenium开发文档</h1><p><a href="https://selenium-python-zh.readthedocs.io/en/latest/" target="_blank" rel="noopener">https://selenium-python-zh.readthedocs.io/en/latest/</a> </p>
+<p>wd.implicitly_wait(10)</p>
+<p>Selenium 的 Webdriver 对象 有个方法叫 <code>implicitly_wait</code></p>
+<p>该方法接受一个参数， 用来指定 最大等待时长。</p>
+<p>根据 tag名 选择元素的 CSS Selector 语法非常简单，直接写上tag名即可，</p>
+<p>elements = wd.find_elements_by_css_selector(‘div’)</p>
+<p>根据id属性 选择元素的语法是在id号前面加上一个井号： <code>#id值</code></p>
+<p> element = wd.find_element_by_css_selector(‘#searchtext’)</p>
+<p>根据class属性 选择元素的语法是在 class 值 前面加上一个点： <code>.class值</code></p>
+<p>elements = wd.find_elements_by_css_selector(‘.animal’)</p>
 ]]></content>
-      <categories>
-        <category>诗歌</category>
-      </categories>
-      <tags>
-        <tag>poem</tag>
-      </tags>
   </entry>
 </search>
